@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+}
+
+.container{
+    background: url(https://www.cforce.com/assets/themes/cforce/static/images/home/chuckDescription/chuckCutout-sm.png) left no-repeat;
+    /* background-size: 100%; */
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* transform: translateX(-50%); */
+}
+
+.joke{
+    border: 1px dotted black;
+    background: rgba(0, 0,0, 0.6);
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+i{
+    padding-top: 1rem;
+    color: wheat;
+}
+
+#joke-text{
+    font-size: 1.5rem;
+}
+
+@media(max-width: 700px){
+    #joke-text{
+        font-size: 1rem;
+    }
+}
